@@ -43,17 +43,10 @@ minikube delete
 
 ## `minikube status`
 `minikube status`를 통해서 minikube의 상태를 알 수 있습니다.
-<div align="center>
 
-![minikube status](./images/minikube-status.png)
-
-</div>
+![minikube status](/images/minikube-status.png)
 
 ## `minikube start`
 첫 번째로 `minikube start`를 통해서 minikube를 실행시킵니다.
 
-<div align="center>
-
 ![minikube start](./images/minikube-start.png)
-
-</div>
