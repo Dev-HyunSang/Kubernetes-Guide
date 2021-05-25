@@ -1,7 +1,10 @@
 # Kubernetes(k8s)
 [**쿠버네티스 안내서**](https://subicura.com/k8s/)를 통해서 Kubernetes를 공부합니다.
 
-## minikube
+## [minikube](https://github.com/kubernetes/minikube)
+쿠버네티스 클러스터를 실행하려면 최소한 scheduler, controller, api-server, etcd, kubelet, kube-proxy를 설치해야 하고 필요에 따라 dns, ingress controller, storage class등을 설치해야 합니다. 쿠버네티스는 설치 또한 중요한 과정이지만 처음 공부할 땐 설치보단 실질적인 사용법을 익히는 게 중요합니다.  
+쿠버네티스는 쉽고 빠르게 하기 위한 도구가 [**minikube**](https://github.com/kubernetes/minikube) 입니다.  
+minikube는 Windows, macOS, Linux에서 사용할 수 있고 다양한 가상 환경을 지원하여 대부분의 환경에서 문제 없이 동작합니다.
 
 ## minikube install
 ```shell
